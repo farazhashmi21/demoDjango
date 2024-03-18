@@ -81,17 +81,16 @@ WSGI_APPLICATION = 'demoDjango.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': '',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
+        'NAME': 'myultimateapplication-database',
+        'USER': 'uhvbeevljx',
+        'PASSWORD': 'X7BZ7367RIH785SM$',
+        'HOST': 'myultimateapplication-server.mysql.database.azure.com',
         'PORT': '3306',
         'OPTIONS': {
             'ssl': {'ssl-ca': '/var/www/html/BaltimoreCyberTrustRoot.crt.pem'}
         }
     }
 }
-
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
 
