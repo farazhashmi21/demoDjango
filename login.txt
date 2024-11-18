@@ -1,0 +1,7 @@
+Site: Demo Django
+Admin User: root
+Admin Password: tY$%54Uj
+Admin Email Address: developerfaraz@yahoo.com
+Main URL: http://127.0.0.1:8000/
+Admin URL: http://127.0.0.1:8000/admin/
+
